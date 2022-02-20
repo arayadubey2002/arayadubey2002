@@ -39,15 +39,10 @@ class Student:
         
         if x==True and y==True:
             if self.__marks>=65:
-                
-            
                 return True
             else:
-                #print("this executed")
                 return False
-                
-        else:
-            #print("that executed")
+         else:
             return False
             
 
